@@ -16,7 +16,7 @@ import Payments from "./pages/Dashboard/Payment";
 import Users from "./pages/Dashboard/Users";
 import Settings from "./pages/Dashboard/Settings";
 import ProtectedRoute from "./components/ProtectRoutes";
-import DashboardLayout from "./pages/Dashboard/dashboardLayout";
+import DashboardLayout from "./pages/Dashboard/DashboardLayout";
 import ProductDetails from "./pages/Dashboard/ProductDetails";
 import OrderDetails from "./pages/Dashboard/OrderDetails";
 import PaymentDetails from "./pages/Dashboard/PaymentDetails";
