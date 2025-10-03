@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
-import logo from "../images/My-Logo.png"; // Import your logo image
+import logo from "../images/Main-Logo2.png"; // Import your logo image
 
 export default function Navbar() {
   const { user, logout } = useAuth();
