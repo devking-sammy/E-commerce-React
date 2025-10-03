@@ -40,7 +40,7 @@ import UserSettings from "./pages/User/UserSettings";
 import Profile from "./pages/User/Profile";
 import UserProductDetails from "./pages/User/UserProductDetails";
 import Checkout from "./pages/User/Checkout";
-import Login from "./pages/Auth/login";
+import Login from "./pages/Auth/Login";
 
 
 
