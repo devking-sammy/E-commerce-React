@@ -16,7 +16,7 @@ const Checkout = () => {
     quantity: it.quantity,
     price: it.productId?.price ?? it.price,
     image: it.productId?.image,
-    name: it.productId?.title,
+    name: it.productId?.name,
   }));
 
   const totalAmount = useMemo(
@@ -83,10 +83,10 @@ const Checkout = () => {
               <div className="flex items-center space-x-3">
                 <img
                   src={item.image}
-                  alt={item.title || "Product Image"}
+                  alt={item.name || "Product Image"}
                   className="w-10 h-10 object-cover rounded"
                 />
-                <span>{item.title || "Unnamed Product"}</span>
+                <span>{item.name || "Unnamed Product"}</span>
               </div>
               <span>
                 {item.quantity} × ₦{(item.price || 0).toLocaleString()}
