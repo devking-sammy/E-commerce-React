@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="py-6 bg-gray-800 text-white text-center">
-        <p>&copy; {new Date().getFullYear()} My Ecommerce. All rights reserved.</p>
-      </footer>
-    </div>
-  )
-}
+    <footer className="bg-gray-900 text-gray-400 border-t border-gray-700 py-8">
+      <div className="max-w-7xl mx-auto text-center text-sm">
+        <p>
+          © {new Date().getFullYear()}{" "}
+          <span className="font-semibold text-orange-500">My Ecommerce</span>. All
+          rights reserved.
+        </p>
+        <p className="mt-2">Inspired by Jumia • Built with ❤️ by your dev team</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

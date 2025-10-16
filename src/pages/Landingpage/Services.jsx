@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* <Navbar /> */}
-      <section className="flex-1 bg-gray-100 px-6 py-12">
+      <section className="flex-1 bg-white/60 px-6 py-12">
         <h1 className="text-4xl font-bold text-center mb-8">Our Services</h1>
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 bg-white shadow rounded-lg">
